@@ -1,5 +1,18 @@
 class Parent:
-    pass
+    def __init__(self,name):
+        self.__name=name
+    
+    def __hello(self):
+        print("Hello",self.__name)
 
-class Child(Parent):
-    pass
+    
+    def welcome(self):
+        self.__hello()
+
+
+p=Parent("Aniket")
+p.welcome()
+
+
+
+# I have to Edit it
