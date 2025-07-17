@@ -1,4 +1,3 @@
-import math as m
 
 def prime(n):
     flag=1
