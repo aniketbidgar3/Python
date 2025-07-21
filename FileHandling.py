@@ -2,14 +2,17 @@
 
 f=open("file.txt","a")
 
-data=input("Enter data : ")
 
-while(data!="stop"):
-    f.write("\n")
-    f.write(data)
-    data=input("Enter data : ")
-    
-f.close()
+# code to write in file
+
+# data=input("Enter data : ")
+
+# while(data!="stop"):
+#     f.write("\n")
+#     f.write(data)
+#     data=input("Enter data : ")
+
+# f.close()
 
 
 # code to read whole file 
