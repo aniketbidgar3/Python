@@ -5,6 +5,7 @@ def greet(fx):
         print("Thank You for Using Me !")
     return myfunc
 
+
 @greet
 def hello():
     print("Hello World")
@@ -12,13 +13,12 @@ def hello():
 
 @greet
 def add():
-    a=int(input("Enter a: "))
-    b=int(input("Enter b: "))
+    a = int(input("Enter a: "))
+    b = int(input("Enter b: "))
     print(f"Sum is {a+b}")
 
 
 add()
-
 
 
 # hello()

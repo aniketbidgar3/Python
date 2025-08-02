@@ -1,9 +1,6 @@
-n=int(input("Enter Any Number : "))
+n = int(input("Enter Any Number : "))
 
-sum=1
-for i in range(1,n+1):
-    if(n%i==0): 
-        print(i,end=" ")
-
-
-
+sum = 1
+for i in range(1, n+1):
+    if (n % i == 0):
+        print(i, end=" ")

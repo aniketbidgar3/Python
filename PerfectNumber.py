@@ -1,12 +1,12 @@
-n=int(input("Enter Any Number : "))
+n = int(input("Enter Any Number : "))
 
-sum=1
-for i in range(2,n):
-    if(n%i==0): 
-        sum+=i
+sum = 1
+for i in range(2, n):
+    if (n % i == 0):
+        sum += i
 
 
-if(sum==n):
+if (sum == n):
     print("This is Perfect Number")
 else:
     print("This is Not Perfect Number")

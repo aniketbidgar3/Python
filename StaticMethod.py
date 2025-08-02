@@ -5,30 +5,27 @@
 class Parent:
     def __init__(self):
         print("I am Constructor")
-        
+
     @staticmethod
     def hello(name):
-        print("Hello",name)
-    
+        print("Hello", name)
 
 
-p1=Parent()
+p1 = Parent()
 p1.hello("Aniket")
-
 
 
 # To run Static Method without @staticmethod Decorator
 
 
 class Parent:
-    def __init__(self):
+    @staticmethod
+    def __init__():
         print("I am Constructor")
-      
+
     def hello(name):
-        print("Hello",name)
-    
+        print("Hello", name)
 
 
-p1=Parent()
+p1 = Parent()
 Parent.hello("Ankita")
-

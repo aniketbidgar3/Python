@@ -1,10 +1,11 @@
 def Gen():
-    for i in range(1,5000):
+    for i in range(1, 5000):
         yield i
 
 # TO Print Numbers as per Requirement
 
-Roll=Gen()
+
+Roll = Gen()
 print(next(Roll))
 print(next(Roll))
 print(next(Roll))
