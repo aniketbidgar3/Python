@@ -1,6 +1,9 @@
-print("Hello, World!")
+# print("Hello, World!")
 
-print("Aniket Bidgar")
+# print("Aniket Bidgar")
 
-ans = eval(input("Enter Equation : "))
-print(ans)
+# ans = eval(input("Enter Equation : "))
+# print(ans)
+
+
+a=int(input("Enter : "))
