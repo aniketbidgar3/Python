@@ -15,7 +15,6 @@
 # if(n<2):
 #     raise ValueError("Prime Number Should be start from 2 and Are Always Positive")
 
-
 # for i in range(2,n+1):
 #     prime(i)
 
@@ -27,3 +26,5 @@ if (salary < 0):
 Tax = (5/100)*salary
 
 print(f"Tax on Your Salary is : {Tax}")
+
+

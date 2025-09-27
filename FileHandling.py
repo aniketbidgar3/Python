@@ -1,36 +1,29 @@
 # code to append in file
 
-f = open("file.txt", "a")
+f = open("alvira.txt", "a")
+
+f.write("Hello I am Alvira\n")
+f.write("I am 20 Years Old\n")
 
 
 # code to write in file
 
-# data=input("Enter data : ")
+data=input("Enter data : ")
 
-# while(data!="stop"):
-#     f.write("\n")
-#     f.write(data)
-#     data=input("Enter data : ")
+while(data!="stop"):
+    f.write("\n")
+    f.write(data)
+    data=input("Enter data : ")
 
-# f.close()
+f.close()
 
 
 # code to read whole file
 
-# f=open("file.txt","r")
+f=open("alvira.txt","r")
 
-# data=f.read()
+data=f.read()
 
-# print(data)
-
-# f.close()
-
-
-# code to read file line by line
-
-f = open("file.txt", "r")
-
-for line in f:
-    print(line)
+print(data)
 
 f.close()

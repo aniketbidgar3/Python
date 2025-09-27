@@ -5,15 +5,15 @@ def Gen():
 # TO Print Numbers as per Requirement
 
 
-Roll = Gen()
-print(next(Roll))
-print(next(Roll))
-print(next(Roll))
-print(next(Roll))
-print(next(Roll))
+# Roll = Gen()
+# print(next(Roll))
+# print(next(Roll))
+# print(next(Roll))
+# print(next(Roll))
+# print(next(Roll))
 
 
 # To print All Numbers in Generators
 
-# for i in Gen():
-#     print(i)
+for i in Gen():
+    print(i)

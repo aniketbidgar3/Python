@@ -8,4 +8,4 @@ m.mul(10, 5)
 
 m.div(10, 5)
 
-print(dir(m))
+# print(dir(m))

@@ -1,8 +1,11 @@
-square=lambda x:x*x
+square=lambda x : x*x
+
+# def square(x):
+#     return x*x
 
 cube=lambda x:x**3
 
-add=lambda a,b:a+b
+add=lambda a,b : a+b
 
 sub=lambda a,b:a-b
 
@@ -10,11 +13,19 @@ mul=lambda a,b:a*b
 
 div=lambda a,b:a/b
 
+# def max(a,b):
+#     if(a>b):
+#         return a
+#     else:
+#         return b
+
 max=lambda a,b:a if a>b else b
 
 min=lambda a,b:a if a<b else b
 
-evenOdd =lambda a:f"{a} is Even" if a%2==0 else f"{a} is Odd"
+evenOdd =lambda a:(f"{a} is Even") if a%2==0 else (f"{a} is Odd")
+
+
 
 print("Square           : ",square(5))
 print("Cube             : ",cube(5))

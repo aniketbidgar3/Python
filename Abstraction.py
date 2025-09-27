@@ -10,6 +10,7 @@ class Parent:
 
 
 p = Parent("Aniket")
+p.__hello()
 p.welcome()
 
 
